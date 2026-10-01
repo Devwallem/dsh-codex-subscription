@@ -1,3 +1,5 @@
+> 本 fork 的可选 Your dot 连接组件处于只读试验阶段，尚未发布到 npm；不会随普通订阅插件自动启用。见 [连接组件说明](docs/DOT-BRIDGE.md)。
+
 <p align="center"><img src="icon-subscription.webp" width="128" height="128" alt="DSH Codex Subscription 图标"></p>
 
 <div align="center">

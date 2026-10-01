@@ -2,6 +2,8 @@ import { defineConfig } from 'tsdown'
 
 const id = 'dsh-codex-subscription'
 const hostExternal = [
+  '@modelcontextprotocol/sdk',
+  'zod',
   '@deepseek-ai/dsh-subagent-codex',
   '@deepseek-ai/dsh-sdk-protocol',
   '@deepseek-ai/dsh-client-connection',
@@ -30,7 +32,7 @@ export default defineConfig([
   },
   {
     name: id,
-    entry: { index: 'src/index.js' },
+    entry: { index: 'src/index.js', 'dot-bridge': 'src/dot-bridge-plugin.js' },
     outDir: 'lib', format: ['esm'], platform: 'node', target: 'es2024',
     fixedExtension: false, dts: false, clean: true,
     deps: { neverBundle: hostExternal },

@@ -12,6 +12,8 @@ This project depends on software distributed under its own terms. The dependency
 | Heroicons | Composer speed icon | MIT | https://github.com/tailwindlabs/heroicons |
 | `https-proxy-agent` 7.0.6 | HTTPS proxy transport for Codex OAuth token requests | MIT | https://github.com/TooTallNate/proxy-agents |
 | `ws` 8.21.3 | Request-scoped subscription WebSocket transport | MIT | https://github.com/websockets/ws |
+| `@modelcontextprotocol/sdk` 1.31.0 | 可选 dot 连接组件的 MCP 服务与验证客户端 | MIT | https://github.com/modelcontextprotocol/typescript-sdk |
+| `zod` 4.4.3 | dot 探针工具的输入校验 | MIT | https://github.com/colinhacks/zod |
 | QuotaPin for Codex | Design basis for the opt-in local quota runway forecast | MIT | https://github.com/WSL043/QuotaPin-for-Codex |
 | tsdown | Development-time bundler | MIT | https://github.com/rolldown/tsdown |
 
